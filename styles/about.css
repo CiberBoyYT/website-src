@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .container {
+    max-width: 80%;
+    animation: fadeIn 1.5s ease-in-out;
+    position: relative;
+    z-index: 2;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  h1 {
+    font-size: 55px;
+    color: #ff4757;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(255, 71, 87, 0.8);
+  }
+  
+  h2,
+  p {
+    margin-bottom: 15px;
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #ff4757;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .skill {
+    background: linear-gradient(135deg, #ff4757, #ff6b81);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(255, 71, 87, 0.5);
+    transition: transform 0.3s;
+  }
+  
+  .skill:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #ff4757, #ff6b81);
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 5px 15px rgba(255, 71, 87, 0.5);
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+  }
+  
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://img.freepik.com/vector-gratis/fondo-degradado-oscuro-espacio-copia_53876-99548.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px; 
+    margin-bottom: 30px;
+    color: red;
+}
+
+h2 {
+    font-size: 24px; 
+    margin: 2px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #066613;
+    color: white;
+    font-size: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-style: groove;
+    border-color: #e64a19;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #e64a19;
+}

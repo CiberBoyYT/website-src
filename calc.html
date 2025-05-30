@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CiberBoy Unit Converter</title>
+    <link rel="stylesheet" href="styles/converter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>CiberBoy Unit Converter</h1>
+        <h2>Convert between different units</h2>
+
+        <label for="quantity">Amount:</label>
+        <input type="number" id="quantity" placeholder="Enter amount" />
+
+        <label for="unit">From Unit:</label>
+        <select id="unit">
+            <option value="m">Meters</option>
+            <option value="km">Kilometers</option>
+            <option value="cm">Centimeters</option>
+            <option value="mm">Millimeters</option>
+            <option value="mi">Miles</option>
+            <option value="in">Inches</option>
+            <option value="yd">Yards</option>
+            <option value="g">Grams</option>
+            <option value="kg">Kilograms</option>
+            <option value="mg">Milligrams</option>
+            <option value="oz">Ounces</option>
+            <option value="lb">Pounds</option>
+            <option value="l">Liters</option>
+            <option value="ml">Milliliters</option>
+            <option value="s">Seconds</option>
+            <option value="min">Minutes</option>
+            <option value="h">Hours</option>
+            <option value="c">Celsius</option>
+            <option value="f">Fahrenheit</option>
+            <option value="k">Kelvin</option>
+        </select>
+
+        <label for="toUnit">To Unit:</label>
+        <select id="toUnit">
+            <option value="km">Kilometers</option>
+            <option value="m">Meters</option>
+            <option value="cm">Centimeters</option>
+            <option value="mm">Millimeters</option>
+            <option value="mi">Miles</option>
+            <option value="in">Inches</option>
+            <option value="yd">Yards</option>
+            <option value="kg">Kilograms</option>
+            <option value="g">Grams</option>
+            <option value="mg">Milligrams</option>
+            <option value="oz">Ounces</option>
+            <option value="lb">Pounds</option>
+            <option value="l">Liters</option>
+            <option value="ml">Milliliters</option>
+            <option value="s">Seconds</option>
+            <option value="min">Minutes</option>
+            <option value="h">Hours</option>
+            <option value="c">Celsius</option>
+            <option value="f">Fahrenheit</option>
+            <option value="k">Kelvin</option>
+        </select>
+
+        <button class="btn" onclick="convert()">Convert</button>
+        <h2 id="result"></h2>
+    </div>
+    <canvas></canvas>
+    <script src="scripts/convert.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/vector-gratis/fondo-degradado-oscuro-espacio-copia_53876-99548.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  canvas {
+    border: 1px solid black;
+    background-color: white;
+  }
+  
